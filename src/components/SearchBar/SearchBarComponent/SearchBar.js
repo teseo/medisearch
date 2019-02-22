@@ -106,7 +106,7 @@ class SearchBar extends React.Component {
 
   handleChange(event) {
     const { value } = event.target;
-    const searchTerm = value.toLowerCase().trim();
+    const searchTerm = value.trim();
 
     if (!value) {
       this.clearInput();

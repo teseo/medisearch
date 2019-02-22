@@ -2,7 +2,11 @@ import React, { Component } from "react";
 import autoBind from "react-autobind";
 import SearchBar from "./../SearchBar";
 import styles from "./../SearchBar/SearchBar.module.css";
-import words from "./../SearchBar/words.json";
+import questions from "./../SearchBar/questions.json";
+import styled from "styled-components";
+
+const MediSearchContainer = styled.div``;
+const SuggestionRenderContainer = styled.span``;
 
 class MediSearch extends Component {
   constructor(props) {
@@ -23,7 +27,7 @@ class MediSearch extends Component {
 
   handleChange(input) {
     this.setState({
-      suggestions: words.filter(word => word.startsWith(input))
+      suggestions: questions.filter(word => word.includes(input))
     });
   }
 
@@ -39,18 +43,17 @@ class MediSearch extends Component {
     }
   }
 
-  suggestionRenderer(suggestion, searchTerm) {
+  suggestionRenderer(suggestion) {
     return (
-      <span>
-        <span>{searchTerm}</span>
-        <strong>{suggestion.substr(searchTerm.length)}</strong>
-      </span>
+      <SuggestionRenderContainer>
+        <strong>{suggestion}</strong>
+      </SuggestionRenderContainer>
     );
   }
 
   render() {
     return (
-      <div className="App">
+      <MediSearchContainer>
         <SearchBar
           autoFocus
           renderClearButton
@@ -64,7 +67,7 @@ class MediSearch extends Component {
           suggestionRenderer={this.suggestionRenderer}
           styles={styles}
         />
-      </div>
+      </MediSearchContainer>
     );
   }
 }
