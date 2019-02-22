@@ -4,9 +4,15 @@ import SearchBar from "./../SearchBar";
 import styles from "./../SearchBar/SearchBar.module.css";
 import questions from "./../SearchBar/questions.json";
 import styled from "styled-components";
+import PropTypes from "prop-types";
+import data from "./dataSource";
 
 const MediSearchContainer = styled.div``;
-const SuggestionRenderContainer = styled.span``;
+const SearchResultContainer = styled.div``;
+const SearchResultText = styled.text``;
+const SuggestionRenderContainer = styled.span`
+  font-size: 12px;
+`;
 
 class MediSearch extends Component {
   constructor(props) {
@@ -16,13 +22,17 @@ class MediSearch extends Component {
       suggestions: []
     };
 
-    autoBind(this, "handleChange", "handleClear", "handleSelection");
+    autoBind(this, "handleChange", "handleSearch", "handleClear", "handleSelection");
   }
 
   handleClear() {
     this.setState({
       suggestions: []
     });
+  }
+
+  handleSearch(inputValue) {
+    this.props.performRemoteSearch(data[inputValue]);
   }
 
   handleChange(input) {
@@ -33,17 +43,12 @@ class MediSearch extends Component {
 
   handleSelection(value) {
     if (value) {
-      console.info(`Selected "${value}"`);
-    }
-  }
-
-  handleSearch(value) {
-    if (value) {
-      console.info(`Searching "${value}"`);
+      // console.info(`Selected "${value}"`);
     }
   }
 
   suggestionRenderer(suggestion) {
+    console.log()
     return (
       <SuggestionRenderContainer>
         <strong>{suggestion}</strong>
@@ -67,9 +72,21 @@ class MediSearch extends Component {
           suggestionRenderer={this.suggestionRenderer}
           styles={styles}
         />
+        {this.props.records.length > 0 && (
+          <SearchResultContainer>
+            <SearchResultText>
+              Total: {this.props.records[0].AttendanceGreater8hrs}
+            </SearchResultText>
+          </SearchResultContainer>
+        )}
       </MediSearchContainer>
     );
   }
 }
+
+MediSearch.propTypes = {
+  records: PropTypes.array,
+  performRemoteSearch: PropTypes.func.isRequired
+};
 
 export default MediSearch;
