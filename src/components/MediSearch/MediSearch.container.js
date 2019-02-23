@@ -1,4 +1,7 @@
-import { performRemoteSearch } from "../../store/actions/search";
+import {
+  performRemoteSearch,
+  clearSearchResults
+} from "../../store/actions/search";
 import { updateSuggestions } from "../../store/actions/autocomplete";
 import { connect } from "react-redux";
 
@@ -10,6 +13,7 @@ const mapStateToProps = state => ({
 });
 const mapDispatchToProps = dispatch => ({
   performRemoteSearch: value => dispatch(performRemoteSearch(value)),
+  clearSearchResults: () => dispatch(clearSearchResults()),
   updateSuggestions: suggestions => dispatch(updateSuggestions(suggestions))
 });
 export default connect(mapStateToProps, mapDispatchToProps)(MediSearch);

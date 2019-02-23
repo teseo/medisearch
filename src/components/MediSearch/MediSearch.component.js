@@ -28,6 +28,7 @@ class MediSearch extends Component {
 
   handleClear() {
     this.props.updateSuggestions([]);
+    this.props.clearSearchResults();
   }
 
   handleSearch(inputValue) {
@@ -84,6 +85,7 @@ MediSearch.propTypes = {
   records: PropTypes.array,
   suggestions: PropTypes.array,
   performRemoteSearch: PropTypes.func.isRequired,
+  clearSearchResults: PropTypes.func.isRequired,
   updateSuggestions: PropTypes.func.isRequired
 };
 
