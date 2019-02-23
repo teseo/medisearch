@@ -13,7 +13,6 @@ export const performRemoteSearch = filters => async dispatch => {
   const limit = 138;
   const offset = 0;
   const nhsData = await ApiService.performSearch(filters, offset, limit);
-
   dispatch({
     type: REMOTE_SEARCH_FULFILLED,
     payload: {
