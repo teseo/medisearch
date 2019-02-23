@@ -17,11 +17,6 @@ const SuggestionRenderContainer = styled.span`
 class MediSearch extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      suggestions: []
-    };
-
     autoBind(
       this,
       "handleChange",
@@ -32,9 +27,7 @@ class MediSearch extends Component {
   }
 
   handleClear() {
-    this.setState({
-      suggestions: []
-    });
+    this.props.updateSuggestions([]);
   }
 
   handleSearch(inputValue) {
@@ -42,9 +35,7 @@ class MediSearch extends Component {
   }
 
   handleChange(input) {
-    this.setState({
-      suggestions: questions.filter(word => word.includes(input))
-    });
+    this.props.updateSuggestions(questions.filter(word => word.includes(input)));
   }
 
   handleSelection(value) {
@@ -54,7 +45,6 @@ class MediSearch extends Component {
   }
 
   suggestionRenderer(suggestion) {
-    console.log();
     return (
       <SuggestionRenderContainer>
         <strong>{suggestion}</strong>
@@ -74,7 +64,7 @@ class MediSearch extends Component {
           onClear={this.handleClear}
           onSelection={this.handleSelection}
           onSearch={this.handleSearch}
-          suggestions={this.state.suggestions}
+          suggestions={this.props.suggestions}
           suggestionRenderer={this.suggestionRenderer}
           styles={styles}
         />
@@ -92,7 +82,9 @@ class MediSearch extends Component {
 
 MediSearch.propTypes = {
   records: PropTypes.array,
-  performRemoteSearch: PropTypes.func.isRequired
+  suggestions: PropTypes.array,
+  performRemoteSearch: PropTypes.func.isRequired,
+  updateSuggestions: PropTypes.func.isRequired
 };
 
 export default MediSearch;
