@@ -1,6 +1,4 @@
-import {
-  REMOTE_SEARCH_FULFILLED
-} from "../actions/types";
+import { REMOTE_SEARCH_FULFILLED } from "../actions/types";
 
 export const initialState = {
   records: []

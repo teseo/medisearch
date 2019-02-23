@@ -1,3 +1,3 @@
-import MediSearch from "./components/MediSearch"
+import MediSearch from "./components/MediSearch";
 
 export default MediSearch;

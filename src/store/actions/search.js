@@ -1,7 +1,7 @@
 import ApiService from "../../utils";
 import { REMOTE_SEARCH_FULFILLED, REMOTE_SEARCH_START } from "./types";
 
-export const performRemoteSearch = (filters) => async dispatch => {
+export const performRemoteSearch = filters => async dispatch => {
   dispatch({
     type: REMOTE_SEARCH_START
   });

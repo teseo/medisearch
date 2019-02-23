@@ -22,7 +22,13 @@ class MediSearch extends Component {
       suggestions: []
     };
 
-    autoBind(this, "handleChange", "handleSearch", "handleClear", "handleSelection");
+    autoBind(
+      this,
+      "handleChange",
+      "handleSearch",
+      "handleClear",
+      "handleSelection"
+    );
   }
 
   handleClear() {
@@ -48,7 +54,7 @@ class MediSearch extends Component {
   }
 
   suggestionRenderer(suggestion) {
-    console.log()
+    console.log();
     return (
       <SuggestionRenderContainer>
         <strong>{suggestion}</strong>
