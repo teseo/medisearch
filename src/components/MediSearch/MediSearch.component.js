@@ -30,8 +30,7 @@ const TopHeaderContainer = styled.div`
 `;
 const SearchCriteriaContainer = styled.div`
   display: flex;
-  flex-direction: row;  
-  background-color: orchid;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   width: 706px;
@@ -133,52 +132,42 @@ class MediSearch extends Component {
     let result;
     if (responseReady) {
       result = this.props.records.map(record => {
-        return (record.AttendanceGreater8hrs &&
-          <SearchResultText>
-            Total: {record.AttendanceGreater8hrs}
-          </SearchResultText>
+        return (
+          record.AttendanceGreater8hrs && (
+            <SearchResultText>
+              Total: {record.AttendanceGreater8hrs}
+            </SearchResultText>
+          )
         );
       });
     }
     return (
-      <MediSearchContainer>
-        <SearchTopContainer>
-          <TopHeaderContainer>
-            <SearchResultText>{"Top Header Container"}</SearchResultText>
-          </TopHeaderContainer>
-          <WelcomeText>{"Hi. How can we help?"}</WelcomeText>
-          <SearchCriteriaContainer>
-            <SearchBar
-              autoFocus
-              renderClearButton
-              renderSearchButton
-              placeholder="select an SAT word"
-              onChange={this.handleChange}
-              onClear={this.handleClear}
-              onSelection={this.handleSelection}
-              onSearch={this.handleSearch}
-              suggestions={this.props.suggestions}
-              suggestionRenderer={this.suggestionRenderer}
-              styles={styles}
-            />
-            <Select
-              value={selectedOption}
-              onChange={this.handleDateChange}
-              options={options}
-            />
-          </SearchCriteriaContainer>
-        </SearchTopContainer>
-        <SearchBottomContainer>
-          <SearchFilterContainer>
-            <SearchResultText>{"Search Filter Container"}</SearchResultText>
-          </SearchFilterContainer>
-          <SearchResultContainer>
-            <SearchResultText>{"Search Result Container"}</SearchResultText>
-
-            {responseReady && result}
-          </SearchResultContainer>
-        </SearchBottomContainer>
-      </MediSearchContainer>
+      <form
+        className="form"
+        data-name="Email Form"
+        id="emaila-form"
+        name="emaila-form"
+      >
+        <input
+          className="search w-input"
+          data-name="Name"
+          id="name"
+          maxLength="256"
+          name="name"
+          placeholder="Search for your questions here..."
+          type="text"
+        />
+        <a
+          className="search-button w-button"
+          href="http://localhost:3000/#results"
+          onClick={e => {
+            e.preventDefault();
+            this.props.performRemoteSearch("test");
+          }}
+        >
+          Search
+        </a>
+      </form>
     );
   }
 }

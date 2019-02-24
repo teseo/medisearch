@@ -5,8 +5,7 @@ const ST_JOHNS =
 
 let data = [];
 data[ROYAL_INFIRMARY] = {
-  TreatmentLocation: "S314H",
-  Month: "201812"
+  TreatmentLocation: "S314H"
 };
 
 data[ST_JOHNS] = {

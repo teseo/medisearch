@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="198" viewBox="0 0 336 198">
+  <g fill="none" fill-rule="evenodd" transform="translate(-1 -2)">
+    <g transform="translate(.58 26.792)">
+      <g transform="translate(25.42 4.208)">
+        <path stroke="#000" stroke-linejoin="round" stroke-opacity=".12" stroke-width=".72" d="M0,139.501618 L310,139.501618 M0,123.971521 L310,123.971521 M0,108.441424 L310,108.441424 M0,92.9113269 L310,92.9113269 M0,77.5016181 L310,77.5016181 M0,61.971521 L310,61.971521 M0,46.4414239 L310,46.4414239 M0,30.9113269 L310,30.9113269 M0,15.5016181 L310,15.5016181 M0,0.501618123 L310,0.501618123"/>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="14" y="168">2013</tspan>
+        </text>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="66" y="168">2014</tspan>
+        </text>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="117" y="168">2015</tspan>
+        </text>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="169" y="168">2016</tspan>
+        </text>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="221" y="168">2017</tspan>
+        </text>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="272" y="168">2018</tspan>
+        </text>
+        <path stroke="#989898" stroke-linejoin="round" stroke-width=".72" d="M0,155.5 L310,155.5"/>
+        <g transform="translate(0 2)">
+          <polygon fill="#44BEB3" fill-opacity=".24" points="0 13.782 61.936 42.429 123.979 .5 186.021 11.698 247.958 69.252 310 64.304 310 153.5 0 153.5"/>
+          <polyline stroke="#44BEB3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.16" points="1 13.83 61.936 42.58 123.979 .5 186.021 11.739 247.958 69.5 309 64.534"/>
+        </g>
+      </g>
+      <g fill="#000" font-family="Rubik-Regular, Rubik" font-size="8" letter-spacing="-.008">
+        <text>
+          <tspan x="9.88" y="162.06">0%</tspan>
+        </text>
+        <text>
+          <tspan x="5.487" y="146.6">10%</tspan>
+        </text>
+        <text>
+          <tspan x="4.215" y="131.17">20%</tspan>
+        </text>
+        <text>
+          <tspan x="4.103" y="115.71">30%</tspan>
+        </text>
+        <text>
+          <tspan x="4.943" y="100.26">40%</tspan>
+        </text>
+        <text>
+          <tspan x="4.151" y="84.8">50%</tspan>
+        </text>
+        <text>
+          <tspan x="4.087" y="69.37">60%</tspan>
+        </text>
+        <text>
+          <tspan x="4.807" y="53.91">70%</tspan>
+        </text>
+        <text>
+          <tspan x="3.815" y="38.46">80%</tspan>
+        </text>
+        <text>
+          <tspan x="4.159" y="23">90%</tspan>
+        </text>
+        <text>
+          <tspan x=".431" y="7.208">100%</tspan>
+        </text>
+      </g>
+    </g>
+    <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="12">
+      <tspan x="84.288" y="11.2">Year on Year Meeting 4 Hour Target</tspan>
+    </text>
+  </g>
+</svg>

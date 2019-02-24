@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="277" height="160" viewBox="0 0 277 160">
+  <defs>
+    <rect id="waiting_time_targets-a" width="159" height="160"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="waiting_time_targets-b" fill="#fff">
+      <use xlink:href="#waiting_time_targets-a"/>
+    </mask>
+    <path fill="#44BEB3" d="M79.671028,0 C35.6635514,0 0,35.7084112 0,79.7607477 C0,83.7233645 0.299065421,87.6859813 0.882242991,91.6186916 L40.2841121,85.682243 C37.0093458,63.8803738 51.9925234,43.5588785 73.7495327,40.2841121 C75.7084112,39.9850467 77.6971963,39.835514 79.671028,39.835514 L79.671028,0 Z" mask="url(#waiting_time_targets-b)"/>
+    <g fill="#3A72BB" mask="url(#waiting_time_targets-b)">
+      <path d="M79.671028,7.81597009e-14 C35.6635514,7.81597009e-14 -2.13162821e-13,35.7084112 -2.13162821e-13,79.7607477 C-2.13162821e-13,83.7233645 0.299065421,87.6859813 0.882242991,91.6186916 L40.2841121,85.682243 C37.0093458,63.8803738 51.9925234,43.5588785 73.7495327,40.2841121 C75.7084112,39.9850467 77.6971963,39.835514 79.671028,39.835514 L79.671028,7.81597009e-14 Z" transform="rotate(75 79.5 80)"/>
+    </g>
+    <path fill="#183861" d="M0.882242991,91.6186916 C7.4317757,135.17757 48,165.188785 91.5140187,158.639252 C135.028037,152.08972 164.994393,111.461682 158.459813,67.9028037 C152.598131,28.8747664 119.102804,0 79.671028,0 L79.671028,39.835514 C101.66729,39.835514 119.506542,57.7046729 119.506542,79.7607477 C119.506542,101.816822 101.66729,119.685981 79.671028,119.685981 C59.9476636,119.685981 43.2,105.226168 40.2841121,85.682243 L0.882242991,91.6186916 Z" mask="url(#waiting_time_targets-b)"/>
+    <g transform="translate(192 30)">
+      <g transform="translate(0 33)">
+        <rect width="12" height="12" y="3" fill="#3A72BB" rx="2"/>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="14">
+          <tspan x="20" y="13">&gt; 8 hours</tspan>
+        </text>
+      </g>
+      <rect width="12" height="12" y="3" fill="#44BEB3" rx="2"/>
+      <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="14">
+        <tspan x="20" y="13">&lt; 4 hours</tspan>
+      </text>
+      <g transform="translate(0 66)">
+        <rect width="12" height="12" y="3" fill="#183861" rx="2"/>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="14">
+          <tspan x="20" y="13">&gt; 12 hours</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

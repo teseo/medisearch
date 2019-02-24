@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="184" viewBox="0 0 336 184">
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -2)">
+    <g transform="translate(26 32)">
+      <path stroke="#000" stroke-linejoin="round" stroke-opacity=".12" stroke-width=".72" d="M0,125 L310,125 M0,109.469903 L310,109.469903 M0,93.9398058 L310,93.9398058 M0,78.4097087 L310,78.4097087 M0,63 L310,63 M0,47.4699029 L310,47.4699029 M0,31.9398058 L310,31.9398058 M0,16.4097087 L310,16.4097087 M0,1 L310,1"/>
+      <g transform="translate(14 90)">
+        <path fill="#183861" d="M4,2.48689958e-14 L19.88,2.48689958e-14 C22.089139,2.44631835e-14 23.88,1.790861 23.88,4 L23.88,49.92 L-3.99680289e-13,49.92 L-3.99680289e-13,4 C-3.9995083e-13,1.790861 1.790861,2.5274808e-14 4,2.48689958e-14 Z"/>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="0" y="63">2013</tspan>
+        </text>
+      </g>
+      <g transform="translate(66 69)">
+        <path fill="#183861" d="M4,2.84217094e-14 L19.88,2.84217094e-14 C22.089139,2.80158972e-14 23.88,1.790861 23.88,4 L23.88,70.92 L-3.85469434e-13,70.92 L-3.85469434e-13,4 C-3.85739976e-13,1.790861 1.790861,2.88275217e-14 4,2.84217094e-14 Z"/>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="0" y="84">2014</tspan>
+        </text>
+      </g>
+      <g transform="translate(117 56)">
+        <path fill="#183861" d="M4,-5.68434189e-14 L19.76,-5.68434189e-14 C21.969139,-5.52871215e-14 23.76,1.790861 23.76,4 L23.76,84.12 L1.13686838e-13,84.12 L1.13686838e-13,4 C1.13416296e-13,1.790861 1.790861,-5.64376066e-14 4,-5.68434189e-14 Z"/>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="0" y="97">2015</tspan>
+        </text>
+      </g>
+      <g transform="translate(169 50)">
+        <path fill="#183861" d="M4,0 L19.88,0 C22.089139,-4.05812251e-16 23.88,1.790861 23.88,4 L23.88,90 L0,90 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z"/>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="0" y="103">2016</tspan>
+        </text>
+      </g>
+      <g transform="translate(220 19)">
+        <path fill="#183861" d="M4,0 L19.88,-4.4408921e-16 C22.089139,-8.49901461e-16 23.88,1.790861 23.88,4 L23.88,121.2 L0,121.2 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z"/>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="1" y="134">2017</tspan>
+        </text>
+      </g>
+      <g transform="translate(272 27)">
+        <path fill="#183861" d="M4,4.26325641e-14 L19.76,4.26325641e-14 C21.969139,4.22267519e-14 23.76,1.790861 23.76,4 L23.76,113.4 L8.34887715e-14,113.4 L8.34887715e-14,4 C8.321823e-14,1.790861 1.790861,4.30383764e-14 4,4.26325641e-14 Z"/>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="10" letter-spacing="-.01">
+          <tspan x="0" y="126">2018</tspan>
+        </text>
+      </g>
+      <path stroke="#989898" stroke-linejoin="round" stroke-width=".72" d="M0,140.5 L310,140.5"/>
+    </g>
+    <g fill="#000" font-family="Rubik-Regular, Rubik" font-size="8" letter-spacing="-.008" transform="translate(.58 28.792)">
+      <text>
+        <tspan x="0" y="146.06">4000</tspan>
+      </text>
+      <text>
+        <tspan x="0" y="130.6">4200</tspan>
+      </text>
+      <text>
+        <tspan x="0" y="115.17">4400</tspan>
+      </text>
+      <text>
+        <tspan x="0" y="99.71">4600</tspan>
+      </text>
+      <text>
+        <tspan x="0" y="84.26">4800</tspan>
+      </text>
+      <text>
+        <tspan x="0" y="68.8">5000</tspan>
+      </text>
+      <text>
+        <tspan x="0" y="53.37">5200</tspan>
+      </text>
+      <text>
+        <tspan x="0" y="37.91">5400</tspan>
+      </text>
+      <text>
+        <tspan x="0" y="22.46">5600</tspan>
+      </text>
+      <text>
+        <tspan x="0" y="7">5800</tspan>
+      </text>
+    </g>
+    <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="12">
+      <tspan x="65.676" y="11.2">Year on Year December A&amp;E Attendances</tspan>
+    </text>
+  </g>
+</svg>

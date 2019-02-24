@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="284" height="160" viewBox="0 0 284 160">
+  <defs>
+    <rect id="admitted_vs_discharged-a" width="159" height="160"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="admitted_vs_discharged-b" fill="#fff">
+      <use xlink:href="#admitted_vs_discharged-a"/>
+    </mask>
+    <g mask="url(#admitted_vs_discharged-b)">
+      <path fill="#44BEB3" d="M154.571963,106.945794 C169.570093,65.5401869 148.186916,19.7831776 106.826168,4.77009346 C98.1233645,1.61495327 88.9271028,-5.68434189e-14 79.671028,-5.68434189e-14 L79.671028,39.835514 C101.66729,39.835514 119.506542,57.7046729 119.506542,79.7607477 C119.506542,84.3962617 118.699065,89.0018692 117.128972,93.353271 L154.571963,106.945794 Z"/>
+      <path fill="#183861" d="M79.671028,-1.3500312e-13 C35.6635514,-1.3500312e-13 -5.1159077e-13,35.7084112 -5.1159077e-13,79.7607477 C-5.1159077e-13,123.813084 35.6635514,159.521495 79.671028,159.521495 C113.196262,159.521495 143.147664,138.497196 154.571963,106.945794 L117.128972,93.353271 C109.637383,114.093458 86.788785,124.814953 66.1084112,117.293458 C45.4280374,109.786916 34.7214953,86.8934579 42.2130841,66.1682243 C47.9252336,50.3626168 62.8934579,39.835514 79.671028,39.835514 L79.671028,-1.3500312e-13 Z"/>
+    </g>
+    <g transform="translate(192 51)">
+      <rect width="12" height="12" y="3" fill="#44BEB3" rx="2"/>
+      <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="14">
+        <tspan x="20" y="13">Ad</tspan> <tspan x="37.584" y="13" letter-spacing="-.084">m</tspan> <tspan x="49.932" y="13">i</tspan> <tspan x="53.292" y="13" letter-spacing="-.253">t</tspan> <tspan x="58.471" y="13" letter-spacing="-.14">t</tspan> <tspan x="63.763" y="13">ed</tspan>
+      </text>
+      <g transform="translate(0 41)">
+        <rect width="12" height="12" y="3" fill="#183861" rx="2"/>
+        <text fill="#000" font-family="Rubik-Regular, Rubik" font-size="14">
+          <tspan x="20" y="13">Di</tspan> <tspan x="32.992" y="13" letter-spacing=".028">s</tspan> <tspan x="40.132" y="13" letter-spacing="-.056">ch</tspan> <tspan x="56.218" y="13">a</tspan> <tspan x="63.918" y="13" letter-spacing="-.225">r</tspan> <tspan x="68.803" y="13" letter-spacing="-.126">g</tspan> <tspan x="77.007" y="13">ed</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
